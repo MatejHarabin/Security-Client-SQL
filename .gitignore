@@ -1,27 +1,25 @@
-/application.yml
+/target/
+!.mvn/wrapper/maven-wrapper.jar
 
-# Ferratum Maven Java gitignore - These should be consistent across projects.
-#nieco
-# Common / Maven
-**/target/
-**/java-generated/
-**/*.log
-**/ignoreMe*
-**/ignoreMe*
-**/jacoco*.exec
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
 
-# IntelliJ
+### IntelliJ IDEA ###
+.idea
+*.iws
 *.iml
-/.idea/*
-#!.idea/inspectionProfiles/
-#!.idea/codeStyleSettings.xml
+*.ipr
 
-# Eclipse
-**/.settings/
-**/.classpath
-**/.project
-backendservices-boot/logs/spring.log.1
-
-# Generated
-
-
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
